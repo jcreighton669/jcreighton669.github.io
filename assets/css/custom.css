@@ -4,54 +4,50 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bellefair", serif;
+    font-family: "Bellefair", serif;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 code {
-  background-color: white;
-  color: rgb(44, 5, 5);
+    color: rgb(134, 255, 154);
+    text-decoration: double;
 }
 
 hr {
-  border-color: #003366;
-  border-width: 3px;
+    border-color: #003366;
+    border-width: 3px;
 }
 
 img #headshot {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
-  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 100%;
 }
 
 .center-object {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 .gamelist {
-  width: 15%;
-  margin-left: 10px;
-  padding: 1%;
+    width: 15%;
+    margin-left: 10px;
+    padding: 1%;
 }
 
-
 #home {
-  background-image: url("../images/lost-co-668059-unsplash.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 100vh;
+    background-image: url("../images/lost-co-668059-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #links a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
-
-
