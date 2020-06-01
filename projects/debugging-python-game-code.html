@@ -56,6 +56,9 @@
             <a href="#inkspill" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
                     Inkspill
                 </a>
+            <a href="#flippy" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
+                    Flippy
+                </a>
         </div>
     </header>
     <!-- MAIN SECTION -->
@@ -63,7 +66,7 @@
         <div class="w3-container">
             <p>
                 I found some other programs and tutorials from the same creator that I used for the simple Python games page, Al Sweigart. For these programs, I used the book
-                <a href="http://inventwithpython.com/pygame/">Making Games with Python &amp; Pygame</a
+                <a href="http://inventwithpython.com/pygame/" target="_blank">Making Games with Python &amp; Pygame</a
                     >
                     because these games use GUI interfaces and because they have
                     a buggy version provided for the reader to recreate the
@@ -107,7 +110,13 @@
                     special skills during gameplay, just an aesthetic difference
                     between them. The goal in the game is to move the stars to
                     designated blocks to complete each level and go on to the
-                    next stage.
+                    next stage. For my version of the code used in the video,
+                    check out the
+                    <a
+                        href="https://github.com/jcreighton669/Personal-Python-Projects/tree/master/Star%20Pusher"
+                        target="_blank"
+                        >GitHub repository</a
+                    >.
                 </p>
             </div>
 
@@ -136,11 +145,47 @@
                     difficulty, and the largest game board. To win the game, the
                     player must select a color square at the bottom of the
                     screen. The color that is at the top left corner of the game
-                    no matter the difficulty or size is the starting point.
+                    no matter the difficulty or size is the starting point. For
+                    my version of the code used in the video, check out the
+                    <a
+                        href="https://github.com/jcreighton669/Personal-Python-Projects/tree/master/Inkspill"
+                        target="_blank"
+                    >
+                        GitHub repository</a
+                    >.
                 </p>
                 <div class="w3-center w3-mobile w3-container">
                     <video
                         src="../assets/images/projects/Ink Spill.mp4"
+                        loop
+                        controls
+                        muted
+                    ></video>
+                </div>
+            </div>
+
+            <div id="flippy" class="w3-container">
+                <h2>Flippy</h2>
+                <h4 class="w3-container">A <em>"Reversi"</em> clone</h4>
+                <p class="w3-container">
+                    The game code from the book online also included a
+                    background image and a board that I included the version
+                    that I made. The code uses logic that allows the user to
+                    play competitively against the computer. The goal in the
+                    game is to have the most tiles of your color on the board
+                    when the board is filled. The player and the computer have
+                    to "enclose" the other player's tiles inside your own to
+                    change them from white to black or vice versa. The game ends
+                    when the board is full and the points are the allocated by
+                    the number of each player's piece on the board earning one
+                    point. Throughout the game, the program tracks the score and
+                    displays it. At the end of the game, the program compares
+                    and calculates the point difference between the user and the
+                    computer.
+                </p>
+                <div class="w3-center">
+                    <video
+                        src="../assets/images/projects/FLIPPY.mp4"
                         loop
                         controls
                         muted
