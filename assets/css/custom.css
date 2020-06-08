@@ -50,6 +50,7 @@ img #headshot {
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: black solid 0.5px;
 }
 
 #home {
