@@ -41,6 +41,17 @@ img #headshot {
     padding: 1%;
 }
 
+.header {
+    margin-top: 4%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 #home {
     background-image: url("../images/lost-co-668059-unsplash.jpg");
     background-size: 100% 100%;
