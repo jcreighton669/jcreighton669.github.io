@@ -21,7 +21,7 @@
     <title>Justin Creighton</title>
 </head>
 
-<body class="w3-theme-d5">
+<body class="">
     <nav class="navbar">
         <div class="w3-container w3-bar w3-theme-l3" id="demo">
             <span class="w3-bar-item w3-xlarge">J. Creighton</span>
@@ -101,7 +101,7 @@
                             target="_blank"
                         >
                             <i class="fab fa-linkedin w3-jumbo"></i><br />
-                            LinkedIn
+                            <strong>LinkedIn</strong>
                         </a>
             </button>
             <button class="w3-btn w3-round-large w3-text-theme w3-margin-left w3-margin-right">
@@ -110,7 +110,8 @@
                             target="_blank"
                         >
                             <i class="fab fa-github-square w3-jumbo"></i>
-                            <br />GitHub</a
+                            <br />
+                            <strong>GitHub</strong></a
                         >
                     </button>
         </div>
@@ -122,8 +123,25 @@
             <h2 class="w3-center w3-theme-l3 w3-xlarge">
                 Click Job for More Details
             </h2>
-            <div class="w3-row-padding w3-padding-24">
-                <div class="w3-col l4 w3-center">
+            <div class="w3-row w3-row-padding w3-padding-24"></div>
+            <div class="w3-row w3-row-padding w3-padding-24">
+                <div class="w3-center w3-third">
+                    <button class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge" onclick="accordionDrop('biomerieux')">
+                            <h3>bioM&#233;rieux, Inc.</h3>
+                            <h4>June 2020 - August 2020</h4>
+                            <h4>Information Systems Intern</h4>
+                        </button>
+                    <hr />
+                    <div class="w3-hide" id="biomerieux">
+                        <p class="w3-justify w3-theme-l5 w3-round-xlarge w3-container w3-padding-large">
+                            I developed different
+                            <strong>SharePoint</strong> applications for the updated information systems support pages, conducted audits of different
+                            <strong>Cisco Webex systems</strong>, and worked with <strong>ServiceNow</strong> to observe patterns and improve service support procedures. One of the apps I developed allows users to find contact support information depending
+                            on the country in which they are located.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-third w3-center">
                     <button class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge" onclick="accordionDrop('ncemc')">
                             <h3>North Carolina Electric Cooperatives</h3>
                             <h4>May 2019 - August 2019</h4>
@@ -131,9 +149,6 @@
                         </button>
                     <hr />
                     <div class="w3-hide" id="ncemc">
-                        <a href="https://www.ncelectriccooperatives.com/" target="_blank">
-                            <img src="assets/images/ncemc-logo.png" alt="The logo for the NCEMC organization" class="w3-card-4 w3-round-large" style="height: 130px;" />
-                        </a>
                         <p class="w3-justify w3-theme-l5 w3-round-xlarge w3-container w3-padding-large">
                             I assisted in the development of in-house applications using
                             <strong>VB.Net and C#.Net framework</strong>. In creating these applications, I gained experience integrating
@@ -154,47 +169,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w3-col l4 w3-center">
-                        <button
-                            class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge"
-                            onclick="accordionDrop('bbw')"
-                        >
-                            <h3>Bath &amp; Body Works LLC</h3>
-                            <h4>May 2017 - May 2019</h4>
-                            <h4>Off-Site Lead &amp; Sale/Stock Associate</h4>
-                        </button>
-                        <hr />
-                        <div class="w3-hide" id="bbw">
-                            <p
-                                class="w3-justify w3-theme-l5 w3-round-xlarge w3-container w3-padding-large"
-                            >
-                                On a daily basis I would
-                                <strong
-                                    >describe merchandise and explain use,
-                                    operation, and care of merchandise to
-                                    customers</strong
-                                >. To do this I made recommendations, select,
-                                and help locate merchandise. Often I computed
-                                sales prices, total purchases for cash or credit
-                                payment. While working here I
-                                <strong
-                                    >maintained knowledge of current sales and
-                                    promotions</strong
-                                >. While doing these tasks I would watch for
-                                security risks and thefts. I was given the
-                                responsibility of maintaining merchandise in
-                                locations outside of the normal stockroom. I
-                                would help
-                                <strong
-                                    >sort incoming products for normal
-                                    stockroom, off-site storage, or to
-                                    immediately go out to the sales
-                                    floor.</strong
-                                >
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w3-col l4 w3-center">
+
+                    <div class="w3-third w3-center">
                         <button
                             class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge"
                             onclick="accordionDrop('humint')"
@@ -227,7 +203,7 @@
                     </div>
                 </div>
                 <div class="w3-row-padding w3-padding-24">
-                    <div class="w3-col l4 w3-center">
+                    <div class="w3-third w3-center">
                         <button
                             class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge"
                             onclick="accordionDrop('arms')"
@@ -262,7 +238,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w3-col l4 w3-center">
+                    <div class="w3-third w3-center">
                         <button
                             class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge"
                             onclick="accordionDrop('logicstics')"
@@ -296,7 +272,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w3-col l4 w3-center">
+                    <div class="w3-third w3-center">
                         <button
                             class="w3-theme-l4 w3-container w3-btn w3-round-xxlarge"
                             onclick="accordionDrop('commo')"
