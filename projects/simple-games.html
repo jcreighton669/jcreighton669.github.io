@@ -1,102 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta
+            name="keywords"
+            content="random module, python, classic games, games, number game, tic-tac-toe, hangman"
+        />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="keywords" content="random module, python, classic games, games, number game, tic-tac-toe, hangman" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css"
+        />
+        <link rel="stylesheet" href="../assets/css/w3-theme-indigo.css" />
+        <link rel="stylesheet" href="../assets/css/custom.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Bellefair|Source+Sans+Pro:300&display=swap"
+            rel="stylesheet"
+        />
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="../assets/css/w3-theme-indigo.css" />
-    <link rel="stylesheet" href="../assets/css/custom.css" />
-    <link href="https://fonts.googleapis.com/css?family=Bellefair|Source+Sans+Pro:300&display=swap" rel="stylesheet" />
+        <!--    JAVASCRIPT    -->
+        <script src="assets/js/custom.js"></script>
+        <script
+            src="https://kit.fontawesome.com/09878ddd81.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Simple Python Games</title>
+    </head>
 
-    <!--    JAVASCRIPT    -->
-    <script src="assets/js/custom.js"></script>
-    <script src="https://kit.fontawesome.com/09878ddd81.js" crossorigin="anonymous"></script>
-    <title>Simple Python Games</title>
-</head>
-
-<body class="w3-mobile w3-theme-d4">
-    <nav>
-        <div class="w3-container w3-bar w3-theme-l3">
-            <span class="w3-bar-item w3-xlarge">J. Creighton</span>
-            <a href="../index.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border">
+    <body class="w3-mobile w3-theme-d4">
+        <nav>
+            <div class="w3-container w3-bar w3-theme-l3">
+                <span class="w3-bar-item w3-xlarge">J. Creighton</span>
+                <a
+                    href="../index.html"
+                    class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                >
                     Home
                 </a>
-            <a href="ncemc-internship.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border">
-                    NCEMC Internship
-                </a>
-            <a href="password-generator.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border">
+                <div
+                    class="w3-dropdown-hover w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                >
+                    Internships
+                    <div class="w3-dropdown-content w3-theme-l5">
+                        <a
+                            href="ncemc-internship.html"
+                            class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                        >
+                            NCEMC Internship
+                        </a>
+                        <a
+                            href="biomerieux-internship.html"
+                            class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                        >
+                            bioM&#233;rieux Internship
+                        </a>
+                    </div>
+                </div>
+
+                <a
+                    href="password-generator.html"
+                    class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                >
                     Password Generator
                 </a>
-            <a href="data-visualization.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border">
+                <a
+                    href="data-visualization.html"
+                    class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                >
                     Data Visualization
                 </a>
-            <div class="w3-dropdown-hover w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border">
-                Python Games
-                <div class="w3-dropdown-content w3-theme-l5">
-                    <a href="simple-games.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border w3-hover-border-white">
+                <div
+                    class="w3-dropdown-hover w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border"
+                >
+                    Python Games
+                    <div class="w3-dropdown-content w3-theme-l5">
+                        <a
+                            href="simple-games.html"
+                            class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border w3-hover-border-white"
+                        >
                             Simple Python Games
                         </a>
-                    <a href="debugging-python-game-code.html" class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border w3-hover-border-white">
+                        <a
+                            href="debugging-python-game-code.html"
+                            class="w3-bar-item w3-large w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-border w3-hover-border-white"
+                        >
                             Debugging Python Games
                         </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <header>
-        <div class="w3-container w3-center w3-section w3-padding-32 w3-round-xxlarge w3-margin">
-            <h1 class="w3-jumbo">Simple Python Games</h1>
-            <h3 class="w3-xxlarge">Creating Different Python Games</h3>
-            <hr />
-        </div>
-        <div class="w3-sidebar w3-bar-block w3-theme-l3 w3-round-xxlarge gamelist w3-hide-small">
-            <a href="#number-guesser" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
+        </nav>
+        <header>
+            <div
+                class="w3-container w3-center w3-section w3-padding-32 w3-round-xxlarge w3-margin"
+            >
+                <h1 class="w3-jumbo">Simple Python Games</h1>
+                <h3 class="w3-xxlarge">Creating Different Python Games</h3>
+                <hr />
+            </div>
+            <div
+                class="w3-sidebar w3-bar-block w3-theme-l3 w3-round-xxlarge gamelist w3-hide-small"
+            >
+                <a
+                    href="#number-guesser"
+                    class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge"
+                >
                     Number Guesser
                 </a>
-            <a href="#tic-tac-toe" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
+                <a
+                    href="#tic-tac-toe"
+                    class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge"
+                >
                     Tic Tac Toe
                 </a>
-            <a href="#dragons" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
+                <a
+                    href="#dragons"
+                    class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge"
+                >
                     Dragon's Realm
                 </a>
-            <a href="#hangman" class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge">
+                <a
+                    href="#hangman"
+                    class="w3-bar-item w3-button w3-hover-theme w3-padding-16 w3-mobile w3-hide-small w3-round-xxlarge"
+                >
                     Hangman
                 </a>
-        </div>
-    </header>
-
-    <main class="w3-container" style="margin-left: 15%;">
-        <div id="number-guesser" class="w3-container">
-            <h3>Number Guessing Game</h3>
-
-            <p class="w3-container">
-                This is a simple number guessing game that randomly selects an integer number between 1 and 100. The application gives instructions to the player on what to guess and checks the guess before checking the accuracy of the number. If the guess is not valid,
-                the guess is ignored and the player is instructed to try again.
-            </p>
-
-            <div class="w3-center">
-                <img src="../assets/images/projects/simple-number-guesser.JPG" alt="Screen grab of simple number guessing game intro." class="w3-container" width="50%" />
             </div>
+        </header>
 
-            <p class="w3-container">
-                In the original version of my game, the player is given 10 chances to guess the number. I enhanced/extended the game to make the user choose the difficulty which will effect the range and the number of guesses allotted to reach the number. In the easy
-                setting the user will have to find the correct number between 1 and 20 in 5 attempts. The medium difficulty will be the same as the original version, but the hard difficulty will decrease the number of guesses to 5 for the range that is
-                still between 1 and 100.
-            </p>
+        <main class="w3-container" style="margin-left: 15%;">
+            <div id="number-guesser" class="w3-container">
+                <h3>Number Guessing Game</h3>
 
-            <div class="w3-center w3-mobile">
-                <img src="../assets/images/projects/enhanced-number-guesser.JPG" alt="Screen grab of enhanced number guessing game in easy mode." width="50%" />
-            </div>
+                <p class="w3-container">
+                    This is a simple number guessing game that randomly selects
+                    an integer number between 1 and 100. The application gives
+                    instructions to the player on what to guess and checks the
+                    guess before checking the accuracy of the number. If the
+                    guess is not valid, the guess is ignored and the player is
+                    instructed to try again.
+                </p>
 
-            <p class="w3-container">
-                The program uses the <code>random</code> module as well as the <code>sys</code> module. The random module allows me to generate a random number in the range of the difficulty previously mentioned. The <code>sys</code> module is used to
-                change the color of the final message after the game to red so that the user is visually cued that the game is over. I created this program with simple logic commands in and without the use of any methods and functions. The source code
-                for these programs can be found on my personal
-                <strong>
+                <div class="w3-center">
+                    <img
+                        src="../assets/images/projects/simple-number-guesser.JPG"
+                        alt="Screen grab of simple number guessing game intro."
+                        class="w3-container"
+                        width="50%"
+                    />
+                </div>
+
+                <p class="w3-container">
+                    In the original version of my game, the player is given 10
+                    chances to guess the number. I enhanced/extended the game to
+                    make the user choose the difficulty which will effect the
+                    range and the number of guesses allotted to reach the
+                    number. In the easy setting the user will have to find the
+                    correct number between 1 and 20 in 5 attempts. The medium
+                    difficulty will be the same as the original version, but the
+                    hard difficulty will decrease the number of guesses to 5 for
+                    the range that is still between 1 and 100.
+                </p>
+
+                <div class="w3-center w3-mobile">
+                    <img
+                        src="../assets/images/projects/enhanced-number-guesser.JPG"
+                        alt="Screen grab of enhanced number guessing game in easy mode."
+                        width="50%"
+                    />
+                </div>
+
+                <p class="w3-container">
+                    The program uses the <code>random</code> module as well as
+                    the <code>sys</code> module. The random module allows me to
+                    generate a random number in the range of the difficulty
+                    previously mentioned. The <code>sys</code> module is used to
+                    change the color of the final message after the game to red
+                    so that the user is visually cued that the game is over. I
+                    created this program with simple logic commands in and
+                    without the use of any methods and functions. The source
+                    code for these programs can be found on my personal
+                    <strong>
                         <a
                             href="https://github.com/jcreighton669/Personal-Python-Projects/tree/master/Number%20Guesser"
                         >
