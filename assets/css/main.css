@@ -1,0 +1,162 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+	font-size: 1.5rem;
+}
+
+p a:hover {
+	font-size: 1.25rem;
+}
+
+section a:hover {
+	font-size: 1.5rem;
+}
+
+/* CLASSES */
+.bg-garnet {
+  background-color: #960A2C !important;
+}
+
+.border-garnet {
+  border-color: #960A2C !important;
+}
+
+.btn-outline-garnet {
+  color: #960A2C;
+  border-color: #960A2C;
+}
+.btn-outline-garnet:hover {
+  color: #fff;
+  background-color: #960A2C;
+  border-color: #960A2C;
+}
+.btn-check:focus + .btn-outline-garnet, .btn-outline-garnet:focus {
+  box-shadow: 0 0 0 0.25rem rgba(150, 10, 44, 0.5);
+}
+.btn-check:checked + .btn-outline-garnet, .btn-check:active + .btn-outline-garnet, .btn-outline-garnet:active, .btn-outline-garnet.active, .btn-outline-garnet.dropdown-toggle.show {
+  color: #fff;
+  background-color: #960A2C;
+  border-color: #960A2C;
+}
+.btn-check:checked + .btn-outline-garnet:focus, .btn-check:active + .btn-outline-garnet:focus, .btn-outline-garnet:active:focus, .btn-outline-garnet.active:focus, .btn-outline-garnet.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(150, 10, 44, 0.5);
+}
+.btn-outline-garnet:disabled, .btn-outline-garnet.disabled {
+  color: #960A2C;
+  background-color: transparent;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6  {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.job-desc {
+	font-weight: 400;
+}
+
+.jumbotron-main {
+	background: url("../img/jumbotrons/oliver-pecker-HONJP8DyiSM-unsplash.jpg") no-repeat center center;
+	color: white;
+	padding-top: 140px;
+	text-align: center;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-portfolio {
+	background: url("../img/jumbotrons/ommy-jay-8eSVCkexCDc-unsplash.jpg") no-repeat center center;
+	color: white;
+	padding-top: 140px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+	background-position: center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-biomerieux {
+	background: url(../img/jumbotrons/lukas-blazek-mcSDtbWXUZU-unsplash.jpg) no-repeat center center;
+	color: black;
+	padding-top: 140px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+	background-position: center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-ncemc {
+	background: url(../img/jumbotrons/PANO_20190712_110502.vr.jpg) no-repeat center center;
+	color: black;
+	padding-top: 140px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+	background-position: center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-games { 
+	background: url("../img/jumbotrons/anne-nygard-lOcP_QZzitI-unsplash.jpg") no-repeat center center;
+	color: white;
+	padding-top: 140px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+	background-position: center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron-password {
+	background: url("../img/jumbotrons/neonbrand-mgYAR7BzBk4-unsplash.jpg") no-repeat center center;
+	color: white;
+	padding-top: 140px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.obj-cover {
+	width: 50vh;
+	height: auto;
+}
+
+.text-garnet {
+	color: #960A2C;
+	font-weight: 400;
+}
+
+.text-garnet a {
+	text-decoration: none;
+	color: #960A2C;
+}
