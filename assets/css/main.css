@@ -1,175 +1,276 @@
 body {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	font-size: medium;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: medium;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 nav a:hover {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 p a:hover {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 section a:hover {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* CLASSES */
 .bg-garnet {
-  background-color: #960A2C !important;
+  background-color: #960a2c !important;
 }
 
 .border-garnet {
-  border-color: #960A2C !important;
+  border-color: #960a2c !important;
 }
 
 .btn-outline-garnet {
-  color: #960A2C;
-  border-color: #960A2C;
+  color: #960a2c;
+  border-color: #960a2c;
 }
 .btn-outline-garnet:hover {
   color: #fff;
-  background-color: #960A2C;
-  border-color: #960A2C;
+  background-color: #960a2c;
+  border-color: #960a2c;
 }
-.btn-check:focus + .btn-outline-garnet, .btn-outline-garnet:focus {
+.btn-check:focus + .btn-outline-garnet,
+.btn-outline-garnet:focus {
   box-shadow: 0 0 0 0.25rem rgba(150, 10, 44, 0.5);
 }
-.btn-check:checked + .btn-outline-garnet, .btn-check:active + .btn-outline-garnet, .btn-outline-garnet:active, .btn-outline-garnet.active, .btn-outline-garnet.dropdown-toggle.show {
+.btn-check:checked + .btn-outline-garnet,
+.btn-check:active + .btn-outline-garnet,
+.btn-outline-garnet:active,
+.btn-outline-garnet.active,
+.btn-outline-garnet.dropdown-toggle.show {
   color: #fff;
-  background-color: #960A2C;
-  border-color: #960A2C;
+  background-color: #960a2c;
+  border-color: #960a2c;
 }
-.btn-check:checked + .btn-outline-garnet:focus, .btn-check:active + .btn-outline-garnet:focus, .btn-outline-garnet:active:focus, .btn-outline-garnet.active:focus, .btn-outline-garnet.dropdown-toggle.show:focus {
+.btn-check:checked + .btn-outline-garnet:focus,
+.btn-check:active + .btn-outline-garnet:focus,
+.btn-outline-garnet:active:focus,
+.btn-outline-garnet.active:focus,
+.btn-outline-garnet.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(150, 10, 44, 0.5);
 }
-.btn-outline-garnet:disabled, .btn-outline-garnet.disabled {
-  color: #960A2C;
+.btn-outline-garnet:disabled,
+.btn-outline-garnet.disabled {
+  color: #960a2c;
   background-color: transparent;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6  {
-	font-family: 'Montserrat', sans-serif;
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .job-desc {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 .jumbotron-main {
-	background: url("../img/jumbotrons/oliver-pecker-HONJP8DyiSM-unsplash.jpg") no-repeat center center;
-	color: white;
-	padding-top: 140px;
-	text-align: center;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	-webkit-background-size: cover;
+  background: url("../img/jumbotrons/oliver-pecker-HONJP8DyiSM-unsplash.jpg")
+    no-repeat center center;
+  color: white;
+  padding-top: 140px;
+  text-align: center;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .jumbotron-portfolio {
-	background: url("../img/jumbotrons/ommy-jay-8eSVCkexCDc-unsplash.jpg") no-repeat center center;
-	color: white;
-	padding-top: 140px;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: center center;
-	-webkit-background-size: cover;
+  background: url("../img/jumbotrons/ommy-jay-8eSVCkexCDc-unsplash.jpg")
+    no-repeat center center;
+  color: white;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .jumbotron-biomerieux {
-	background: url(../img/jumbotrons/lukas-blazek-mcSDtbWXUZU-unsplash.jpg) no-repeat center center;
-	color: black;
-	padding-top: 140px;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: center center;
-	-webkit-background-size: cover;
+  background: url(../img/jumbotrons/lukas-blazek-mcSDtbWXUZU-unsplash.jpg)
+    no-repeat center center;
+  color: black;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .jumbotron-ncemc {
-	background: url(../img/jumbotrons/PANO_20190712_110502.vr.jpg) no-repeat center center;
-	color: black;
-	padding-top: 140px;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: center center;
-	-webkit-background-size: cover;
+  background: url(../img/jumbotrons/PANO_20190712_110502.vr.jpg) no-repeat
+    center center;
+  color: black;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.jumbotron-games { 
-	background: url("../img/jumbotrons/anne-nygard-lOcP_QZzitI-unsplash.jpg") no-repeat center center;
-	color: white;
-	padding-top: 140px;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: center center;
-	-webkit-background-size: cover;
+.jumbotron-games {
+  background: url("../img/jumbotrons/anne-nygard-lOcP_QZzitI-unsplash.jpg")
+    no-repeat center center;
+  color: white;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .jumbotron-password {
-	background: url("../img/jumbotrons/neonbrand-mgYAR7BzBk4-unsplash.jpg") no-repeat center center;
-	color: white;
-	padding-top: 140px;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: bottom center;
-	-webkit-background-size: cover;
+  background: url("../img/jumbotrons/neonbrand-mgYAR7BzBk4-unsplash.jpg")
+    no-repeat center center;
+  color: white;
+  padding-top: 140px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: bottom center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .jumbotron-woodworking {
-	color: white;
-	padding-top: 10%;
-	text-align: center;
-	min-height: 500px;
-	width: 100%;
-	background-position: bottom center;
-	-webkit-background-size: cover;
+  color: white;
+  padding-top: 10%;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: bottom center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 .obj-cover {
-	width: 50vh;
-	height: auto;
+  width: 50vh;
+  height: auto;
 }
 
 .text-garnet {
-	color: #960A2C;
-	font-weight: 400;
+  color: #960a2c;
+  font-weight: 400;
 }
 
 .text-garnet a {
-	text-decoration: none;
-	color: #960A2C;
+  text-decoration: none;
+  color: #960a2c;
+}
+
+.slideshow-container {
+  position: relative;
+  background-color: #f1f1f1;
+  color: #20295b;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  margin-bottom: 25px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+q {
+  font-style: italic;
+}
+
+.author {
+  color: cornflowerblue;
 }
