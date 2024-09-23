@@ -26,10 +26,6 @@ p a:hover {
   font-size: 1.25rem;
 }
 
-section a:hover {
-  font-size: 1.5rem;
-}
-
 /* CLASSES */
 .bg-garnet {
   background-color: #960a2c !important;
@@ -39,14 +35,15 @@ section a:hover {
   border-color: #960a2c !important;
 }
 
-.btn-outline-garnet {
-  color: #960a2c;
-  border-color: #960a2c;
-}
-.btn-outline-garnet:hover {
-  color: #fff;
+.btn-garnet {
   background-color: #960a2c;
   border-color: #960a2c;
+  color: white;
+}
+.btn-garnet:hover {
+  color: #fff;
+  background-color: #960a2c;
+  border-color: #fff;
 }
 .btn-check:focus + .btn-outline-garnet,
 .btn-outline-garnet:focus {
@@ -274,10 +271,15 @@ q {
 .author {
   color: cornflowerblue;
 }
-
 .project-icon {
   width: 1.5rem;
   height: 1.5rem;
   stroke: #20295b;
   margin-right: 1rem;
+}
+section a:link,
+section a:visited,
+section a:hover,
+section a:active {
+  text-decoration: none;
 }
