@@ -274,3 +274,10 @@ q {
 .author {
   color: cornflowerblue;
 }
+
+.project-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: #20295b;
+  margin-right: 1rem;
+}
