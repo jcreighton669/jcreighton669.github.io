@@ -1,286 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link href="../assets/img/logo.png" rel="icon" />
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" />
 
-	<!-- Favicons -->
-	<link href="../assets/img/logo.png" rel="icon">
-	<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <!-- W3 Schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
-	<!-- W3 Schools CSS -->
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- FontAwesome CSS -->
+    <script
+      src="https://kit.fontawesome.com/09878ddd81.js"
+      crossorigin="anonymous"
+    ></script>
 
-	<!-- FontAwesome CSS -->
-	<script src="https://kit.fontawesome.com/09878ddd81.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
 
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap"
-		rel="stylesheet">
+    <!-- Personal Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/w3-theme-indigo.css" />
+    <link rel="stylesheet" href="../assets/css/projects.css" />
 
-	<!-- Personal Stylesheets -->
-	<link rel="stylesheet" href="../assets/css/main.css">
-	<link rel="stylesheet" href="../assets/css/w3-theme-indigo.css">
+    <title>J. Creighton Portfolio</title>
+  </head>
 
-	<title>J. Creighton Portfolio</title>
-</head>
+  <body class="w3-theme-l4">
+    <!-- NAVIGATION -->
+    <nav class="nav sticky-top justify-content-center w3-theme-dark">
+      <a
+        href="../index.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Home"
+      >
+        <i class="fas fa-home fa-2x"></i>
+      </a>
+      <a
+        href="portfolio-index.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Projects Homepage"
+      >
+        <i class="fas fa-briefcase fa-2x"></i>
+      </a>
+      <a
+        href="biomerieux.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="bioMerieux Projects"
+      >
+        <i class="fas fa-vial fa-2x"></i>
+      </a>
+      <a
+        href="ncemc.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="NCEMC Projects"
+      >
+        <i class="fas fa-charging-station fa-2x"></i>
+      </a>
+      <a
+        href="password-generator.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Password Generator"
+      >
+        <i class="fas fa-lock fa-2x"></i>
+      </a>
+      <a
+        href="simple-games.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Simple Games"
+      >
+        <i class="fas fa-dice-d20 fa-2x"></i>
+      </a>
+      <a
+        href="complex-games.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Complex Games"
+      >
+        <i class="fas fa-gamepad fa-2x"></i>
+      </a>
+      <a
+        href="data-visualizations.html"
+        class="nav-link link-light"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Data Visualization"
+      >
+        <i class="fas fa-chart-area fa-2x"></i>
+      </a>
+    </nav>
 
-<body class="w3-theme-l4">
-	<!-- NAVIGATION -->
-	<nav class="nav sticky-top justify-content-center w3-theme-dark">
-		<a href="../index.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top" title="Home">
-			<i class="fas fa-home fa-2x"></i>
-		</a>
-		<a href="portfolio-index.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="Projects Homepage">
-			<i class="fas fa-briefcase fa-2x"></i>
-		</a>
-		<a href="biomerieux.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="bioMerieux Projects">
-			<i class="fas fa-vial fa-2x"></i>
-		</a>
-		<a href="ncemc.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top" title="NCEMC Projects">
-			<i class="fas fa-charging-station fa-2x"></i>
-		</a>
-		<a href="password-generator.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="Password Generator">
-			<i class="fas fa-lock fa-2x"></i>
-		</a>
-		<a href="simple-games.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="Simple Games">
-			<i class="fas fa-dice-d20 fa-2x"></i>
-		</a>
-		<a href="complex-games.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="Complex Games">
-			<i class="fas fa-gamepad fa-2x"></i>
-		</a>
-		<a href="data-visualizations.html" class="nav-link link-light" data-toggle="tooltip" data-placement="top"
-			title="Data Visualization">
-			<i class="fas fa-chart-area fa-2x"></i>
-		</a>
-	</nav>
+    <!-- JUMBOTRON SECTION -->
+    <div class="jumbotron-portfolio pb-4">
+      <section class="title">
+        <h1 class="display-1">Personal &amp; Professional Projects</h1>
+        <p class="display-4">Java and Python Programs</p>
+      </section>
+    </div>
 
-	<!-- JUMBOTRON SECTION -->
-	<div class="jumbotron-portfolio pb-4">
-		<h1 class="display-1">Personal &amp; Professional Projects<h1>
-				<p class="display-4">Java and Python Programs</p>
-	</div>
-
-	<!-- PROJECTS SECTION -->
-	<section class="w3-theme-light justify-content-center">
-		<h2 class="display-2 text-center pb-3">Projects Home</h2>
-		<div class="row mx-auto p-auto">
-
-			<!-- BIOMERIEUX PROJECT SECTION -->
-			<div class="col-lg-6 col-12 mx-auto pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto" style="width: 100%;">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">2020 Summer Internship Projects</div>
-						<hr>
-						<div class="card-text container">
-							In the summer of 2020, I worked for bioMerieux as the Information Systems Intern for their Global IS
-							team. During this time of COVID-19 in the United States, I worked from home for the entire time. I
-							worked with and interacted with people from all over the globe. I felt that the project managers that I
-							worked for allowed me to work independently. There were different topics that I had to learn to succeed
-							in this role. I worked with three distinct groups in the company's IS field. I worked on the company
-							SharePoint site, the telecommunications group on different Cisco devices, and the Service Center,
-							observing tickets and identifying trends.
-						</div>
-						<!-- <div class="w3-center pt-3">
+    <!-- PROJECTS SECTION -->
+    <section class="w3-theme-light justify-content-center">
+      <h2 class="display-2 text-center pb-3">Projects</h2>
+      <div class="row mx-auto p-auto">
+        <!-- BIOMERIEUX PROJECT SECTION -->
+        <div class="col-lg-6 col-12 mx-auto pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto" style="width: 100%">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
+                  />
+                </svg>
+                2020 Summer Internship Projects
+              </div>
+              <hr />
+              <div class="card-text container">
+                In the summer of 2020, I worked for bioMerieux as the
+                Information Systems Intern for their Global IS team. During this
+                time of COVID-19 in the United States, I worked from home for
+                the entire time. I worked with and interacted with people from
+                all over the globe. There were different topics that I had to
+                learn to succeed in this role. I worked with three distinct
+                groups in the company's IS field. I worked on the company
+                SharePoint site, the telecommunications group on different Cisco
+                devices, and the Service Center, observing tickets and
+                identifying trends.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a class="btn btn-outline-light" href="biomerieux.html">
 								<i class="fas fa-vial fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<!-- NCEMC PROJECT SECTION -->
-			<div class="col-lg-6 col-12 mx-auto pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto" style="width: 100%;">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">2019 Summer Internship Projects</div>
-						<hr>
-						<div class="card-text container">
-							The summer before my senior year at Shaw University, I worked as an Information Technology Intern at the
-							North Carolina Electric Cooperatives NCEMC. I worked with the software services department, creating and
-							modifying existing in-house applications. There were two major projects and three programs that I worked
-							on from start to finish. The first project involved working with the updated standards of the data
-							retrieval from the Ecobee API system. The second one involved using the SQL bulk copy function to move
-							Information into a smart meter technology database.
-						</div>
-						<!-- <div class="w3-center pt-3">
+        <!-- NCEMC PROJECT SECTION -->
+        <div class="col-lg-6 col-12 mx-auto pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto" style="width: 100%">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+                  />
+                </svg>
+                2019 Summer Internship Projects
+              </div>
+              <hr />
+              <div class="card-text container">
+                I worked as an Information Technology Intern at the North
+                Carolina Electric Cooperatives the summer of 2019. I worked with
+                the software services department, creating and modifying
+                existing in-house applications. There were two major projects
+                and three programs that I worked on from start to finish. The
+                first project involved data retrieval from the Ecobee API
+                system. The second one project used SQL bulk copy function to
+                move information to a database.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a href="ncemc.html" class="btn btn-outline-light">
 								<i class="fas fa-charging-station fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<div class="row mx-auto p-auto">
-
-			<!-- PASSWORD GENERATOR APPLICATION -->
-			<div class="col-lg-6 col-12 pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">Password Generator Project</div>
-						<hr>
-						<div class="card-text container">
-							The application allowed me to delve deeper into the Python programming language. I created a program
-							that would easily create a password string for better encryption or security. The program uses digits
-							(0-9), lowercase letters, uppercase letters, and special characters. The program randomly selects
-							characters in the set and concatenates them to the password. The user inputs an integer for the number
-							of password/phrases they would like generated and the length they should be for a secure password.
-						</div>
-						<!-- <div class="w3-center pt-3">
+      <div class="row mx-auto p-auto">
+        <!-- PASSWORD GENERATOR APPLICATION -->
+        <div class="col-lg-6 col-12 pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
+                  />
+                </svg>
+                Password Generator Project
+              </div>
+              <hr />
+              <div class="card-text container">
+                The application allowed me to delve deeper into the Python
+                programming language. I created a program that would easily
+                create a password string for better encryption or security. The
+                program uses digits (0-9), lowercase letters, uppercase letters,
+                and special characters. The program randomly selects characters
+                in the set and concatenates them to the password. The user
+                inputs an integer for the number of password/phrases they would
+                like generated and the length they should be for a secure
+                password.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a class="btn btn-outline-light" href="password-generator.html">
 								<i class="fas fa-lock fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<!-- SIMPLE PYTHON GAMES -->
-			<div class="col-lg-6 col-12 pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">Simple Python Games</div>
-						<hr>
-						<div class="card-text container">
-							I decided to delve into some small, simple games for more knowledge in python programming. I created a
-							number guessing game that I converted from a Java program that I previously created for a school
-							assignment. There are two versions, a basic form and an enhanced version. I also made a couple of
-							personal interpretations of games from a textbook called Tic-Tac-Toe, Dragon's Realm, and Hangman.
-						</div>
-						<!-- <div class="w3-center pt-3">
+        <!-- SIMPLE PYTHON GAMES -->
+        <div class="col-lg-6 col-12 pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 0 1-.657.643 48.39 48.39 0 0 1-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 0 1-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 0 0-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 0 1-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 0 0 .657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 0 0 5.427-.63 48.05 48.05 0 0 0 .582-4.717.532.532 0 0 0-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 0 0 .658-.663 48.422 48.422 0 0 0-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 0 1-.61-.58v0Z"
+                  />
+                </svg>
+                Simple Python Games
+              </div>
+              <hr />
+              <div class="card-text container">
+                I decided to delve into some small, simple games for more
+                knowledge in python programming. I created a number guessing
+                game that I converted from a Java program that I previously
+                created for a school assignment. There are two versions, a basic
+                form and an enhanced version. I also made a couple of personal
+                interpretations of games from a textbook called Tic-Tac-Toe,
+                Dragon's Realm, and Hangman.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a href="simple-games.html" class="btn btn-outline-light">
 								<i class="fas fa-dice-d20 fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row mx-auto p-auto">
-
-			<!-- COMPLEX PYHTON GAMES  -->
-			<div class="col-lg-6 col-12 pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto" style="width: 100%;">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">Complex Python Games</div>
-						<hr>
-						<div class="card-text container">
-							I wanted to dive deeper into the Python game development world and created a group of games from a
-							textbook. These are all clones of games that exist on larger platforms. The games include Star Pusher,
-							Inkspill, and Flippy for copyright reasons. Creating Inkspill allowed me to get more acquainted with
-							color patterns and difficulty settings in game development.
-						</div>
-						<!-- <div class="w3-center pt-3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-auto p-auto">
+        <!-- COMPLEX PYHTON GAMES  -->
+        <div class="col-lg-6 col-12 pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto" style="width: 100%">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 0 1-.657.643 48.39 48.39 0 0 1-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 0 1-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 0 0-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 0 1-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 0 0 .657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 0 0 5.427-.63 48.05 48.05 0 0 0 .582-4.717.532.532 0 0 0-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 0 0 .658-.663 48.422 48.422 0 0 0-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 0 1-.61-.58v0Z"
+                  />
+                </svg>
+                Complex Python Games
+              </div>
+              <hr />
+              <div class="card-text container">
+                I wanted to dive deeper into the Python game development world
+                and created a group of games from a textbook. These are all
+                clones of games that exist on larger platforms. The games
+                include Star Pusher, Inkspill, and Flippy for copyright reasons.
+                Creating Inkspill allowed me to get more acquainted with color
+                patterns and difficulty settings in game development.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a href="complex-games.html" class="btn btn-outline-light">
 								<i class="fas fa-gamepad fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<!-- DATA VISUALIZATIONS -->
-			<div class="col-lg-6 col-12 pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto" style="width: 100%;">
-					<div class="card-body">
-						<div class="card-img-top"></div>
-						<div class="card-title h3 text-center">Python Data Visualization</div>
-						<hr>
-						<div class="card-text container">
-							I was introduced to the Python Programming language after being exposed to C++, Java, and PHP. I enjoyed
-							the simplicity of the language for an introductory language, and it requires fewer symbols and braces. I
-							was immediately intrigued because the teacher was more into the programming language than my Java
-							teacher at the time. The teacher's enthusiasm made me put forth more effort in learning the language to
-							pass. I knew my skill level wasn't high, so I looked for books geared to beginners that helped
-							transition intermediate-level programmers, and got lucky when I found Crash Course Python: A Hands-on
-							Project-Based Introduction to Programming.
-						</div>
-						<!-- <div class="w3-center pt-3">
+        <!-- DATA VISUALIZATIONS -->
+        <div class="col-lg-6 col-12 pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto" style="width: 100%">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"
+                  />
+                </svg>
+                Python Data Visualization
+              </div>
+              <hr />
+              <div class="card-text container">
+                I was introduced to the Python Programming language after being
+                exposed to C++, Java, and PHP. I enjoyed the simplicity of the
+                language for an introductory language, and it requires fewer
+                symbols and braces. I was immediately intrigued because the
+                teacher was more into the programming language than my Java
+                teacher at the time. The teacher's enthusiasm made me put forth
+                more effort in learning the language to pass. I knew my skill
+                level wasn't high, so I looked for books geared to beginners
+                that helped transition intermediate-level programmers, and got
+                lucky when I found Crash Course Python: A Hands-on Project-Based
+                Introduction to Programming.
+              </div>
+              <!-- <div class="w3-center pt-3">
 							<a href="data-visualizations.html" class="btn btn-outline-light">
 								<i class="fas fa-chart-area fa-2x"></i> &emsp;
 								Get More Information
 							</a>
 						</div> -->
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<div class="col-lg-6 col-12 pt-4 pb-3">
-				<div class="card w3-theme-d4 mx-auto" style="width: 100%;">
-				<div class="card-body">
-					<div class="card-img-top"></div>
-					<div class="card-title h3 text-center">Wood Working and Furniture Building</div>
-					<hr>
-					<div class="card-text container">
-						I have been working on building and creating furniture for my home to decorate and fill the space. In 2022, 
-						I built a rudimentary bookshelf out of pine and walnut plywood without the use of any set plans to use as 
-						guide. In 2023, I started to design and work on and building a dining room table 
-					</div>
-					<!-- <div class="w3-center pt-3">
+        <div class="col-lg-6 col-12 pt-4 pb-3">
+          <div class="card w3-theme-d4 mx-auto" style="width: 100%">
+            <div class="card-body">
+              <div class="card-img-top"></div>
+              <div class="card-title h3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="project-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"
+                  />
+                </svg>
+                Wood Working and Furniture Building
+              </div>
+              <hr />
+              <div class="card-text container">
+                I have been working on building and creating furniture for my
+                home to decorate and fill the space. In 2022, I built a
+                rudimentary bookshelf out of pine and walnut plywood without the
+                use of any set plans to use as guide. In 2023, I started to
+                design and work on and building a dining room table
+              </div>
+              <!-- <div class="w3-center pt-3">
 						<a href="woodworking.html" class="btn btn-outline-light">
 							<i class="fa-solid fa-hammer fa-2x"></i> &emsp;
 							Get More Information
 						</a>
 					</div> -->
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- FOOTER SECTION -->
-	<footer class="text-center">
-		<div>&copy; 2019-2021 Justin Creighton</div>
-		<span>Photo by <a class="link-dark"
-				href="https://unsplash.com/@goumbik?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lukas
-				Blazek</a> on <a class="link-dark"
-				href="https://unsplash.com/s/photos/data-visualization?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
-		</span>
-	</footer>
+    <!-- FOOTER SECTION -->
+    <footer class="text-center">
+      <div>&copy; 2019-2021 Justin Creighton</div>
+      <span
+        >Photo by
+        <a
+          class="link-dark"
+          href="https://unsplash.com/@goumbik?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+          >Lukas Blazek</a
+        >
+        on
+        <a
+          class="link-dark"
+          href="https://unsplash.com/s/photos/data-visualization?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </span>
+    </footer>
 
-	<!-- Optional JavaScript; choose one of the two! -->
+    <!-- Optional JavaScript; choose one of the two! -->
 
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-		crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-	<!--
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 		-->
 
-	<script>
-		$(document).ready(function () {
-			$('[data-toggle="tooltip"]').tooltip();
-		});
-	</script>
-</body>
-
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
 </html>
