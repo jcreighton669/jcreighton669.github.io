@@ -274,9 +274,10 @@ q {
 .project-icon {
   width: 1.5rem;
   height: 1.5rem;
-  stroke: #20295b;
+  stroke: #f3f4fb;
   margin-right: 1rem;
 }
+
 section a:link,
 section a:visited,
 section a:hover,
