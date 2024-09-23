@@ -4,6 +4,10 @@ body {
   font-size: medium;
 }
 
+footer {
+  font-size: 0.75rem;
+}
+
 h1,
 h2,
 h3,
